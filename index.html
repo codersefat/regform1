@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    
+    <div class="login-box">
+        <form action="" class="main-form">
+            <!-- Image div -->
+            <div class="avatar-img">
+                <img src="assets/img1.png" alt="" class="avatar">
+            </div>
+
+            <h1>Register Here</h1>
+
+            <!-- Input filds -->
+            <div class="form-group">
+                <label for="">Name<span > *</span></label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">Email<span> *</span></label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">Phone<span> *</span></label>
+                <input type="number" id="number" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">Password<span> *</span></label>
+                <input type="password" id="password" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <button class="btn-primary" onclick="userReg()">Register</button>
+            </div>
+
+            <!-- Social icons -->
+            <div class="social-icons">
+                <ul class="icons">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-google"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Copy raight text -->
+            <h4><a href="https://sayedsefatali.com" target="_blank">Sayed Sefat Ali</a></h4>
+
+        </form>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

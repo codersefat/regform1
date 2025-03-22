@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* CSS start here */
+.login-box{
+    width: 600px;
+    margin: 25px auto;
+}
+.main-form{
+    width: 100%;
+    padding: 40px;
+    background: #eee;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.main-form .avatar-img{
+    width: 100%;
+    text-align: center;
+}
+
+.main-form .avatar-img .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid #000;
+}
+
+.main-form h1{
+    margin: 20px 0px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-form .form-group label span{
+    color: red;
+}
+
+.main-form .form-group{
+    width: 100%;
+    margin: 15px, 0px;
+}
+
+.main-form .form-group label{
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 15px 0px 0px;
+    text-transform: uppercase;
+
+}
+
+.main-form .form-control{
+    width: 96%;
+    padding: 10px;
+    font-family: 14px;
+    color: #000;
+    border-radius: 1px solid #000;
+}
+
+.main-form .btn-primary{
+    padding: 15px 45px;
+    margin-top: 15px;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.main-form .btn-primary:hover,
+.main-form .btn-primary:focus{
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.main-form h4{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-form h4 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.social-icons{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.social-icons .icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.social-icons .icons li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icons .icons li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: #000;
+    background: #eee;
+    border-radius: 100%;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+.social-icons .icons li a:hover,
+.social-icons .icons li a:focus{
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+}
